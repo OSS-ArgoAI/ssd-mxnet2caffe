@@ -1,0 +1,17 @@
+sudo: required
+
+language: python
+
+services:
+  - docker
+
+before_install:
+- docker build -t ssd-mxnet2caffe docker/
+- docker run -v ${PWD}:/code -d --name converter -ti ssd-mxnet2caffe
+- docker ps -a
+
+script:
+- docker exec -i converter bash -c "cd /code && python -m unittest discover"
+
+after_script:
+- docker rm -f ssd-mxnet2caffe
