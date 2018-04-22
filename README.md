@@ -1,4 +1,4 @@
-![ARGO](https://github.com/OSS-ArgoAI/ssd-mxnet2caffe/blob/master/assets/ARGO_logo.png)
+<img src="https://github.com/argoai/ssd-mxnet2caffe/blob/master/assets/ARGO_logo.png" width="225">
 
 [![Build Status](https://travis-ci.com/argoai/ssd-mxnet2caffe.svg?token=HpRyp8wyHLUjnsWzHene&branch=master)](https://travis-ci.com/argoai/ssd-mxnet2caffe) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
